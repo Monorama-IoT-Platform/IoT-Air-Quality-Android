@@ -14,7 +14,7 @@
 | `build` | 빌드 시스템 변경 (webpack, npm 등) |
 | `revert` | 이전 커밋 되돌리기 |
 
-## 🧾 Commit Message Example
+### 🧾 Commit Message Example
 
 ```bash
 feat: 회원가입 API 추가
@@ -30,18 +30,28 @@ build: webpack 설정 수정
 revert: feat: 회원가입 API 추가 커밋 되돌림
 ```
 
-## 💡 PR Convetion
+## 💡 PR Convention
 
 | 아이콘 | 코드 | 설명 |
 | --- | --- | --- |
-| 🎨 | :art | 코드의 구조/형태 개선 |
-| ⚡️ | :zap | 성능 개선 |
-| 🔥 | :fire | 코드/파일 삭제 |
-| 🐛 | :bug | 버그 수정 |
-| 🚑 | :ambulance | 긴급 수정 |
-| ✨ | :sparkles | 새 기능 |
-| 💄 | :lipstick | UI/스타일 파일 추가/수정 |
-| ⏪ | :rewind | 변경 내용 되돌리기 |
-| 🔀 | :twisted_rightwards_arrows | 브랜치 합병 |
-| 💡 | :bulb | 주석 추가/수정 |
-| 🗃 | :card_file_box | 데이버베이스 관련 수정 |
+| ✨ | `:sparkles:` | 새로운 기능 추가 |
+| 💄 | `:lipstick:` | UI/스타일 관련 파일 수정 |
+| 🐛 | `:bug:` | 버그 수정 |
+| 📝 | `:memo:` | 문서 작성 또는 수정 (예: README, Wiki 등) |
+| 🎨 | `:art:` | 코드의 구조/형태 개선 |
+| ⚡️ | `:zap:` | 성능 개선 |
+| 🔥 | `:fire:` | 불필요한 코드/파일 삭제 |
+| 🚑 | `:ambulance:` | 긴급 수정 (핫픽스 등) |
+| ⏪ | `:rewind:` | 변경 내용 되돌리기 |
+| 🔀 | `:twisted_rightwards_arrows:` | 브랜치 병합 |
+| 💡 | `:bulb:` | 주석 추가/수정 |
+| 🗃 | `:card_file_box:` | 데이터베이스 관련 작업 |
+| 🔧 | `:wrench:` | 설정 파일 수정 |
+| ✅ | `:white_check_mark:` | 테스트 코드 추가/수정 |
+| 📦 | `:package:` | 패키지/라이브러리 관련 변경 |
+
+### 💬 PR 제목 예시: 
+```text
+✨ 로그인 기능 구현
+🐛 토큰 갱신 오류 수정
+```
